@@ -12,11 +12,11 @@ The web application built for this project is interactive and informative by pro
 
 The goals I set for my app were to make the navigation easy, for it to be informative but not overwhelming, and to maintain a visually appealing design. I addressed these by:
 
-    - Simplifying Navigation: I organized content into clear, distinct sections accessible through a sidebar menu and intuitive buttons. This allows users to find information quickly without confusion.
-    - Effectiveness and Efficiency: Users can complete their tasks accurately, completely and with minimal effort.
-    - Consistent Visual Design: I applied a clean and consistent color scheme and spacing to create a pleasant user experience. 
-    - Learnability: Users can easily understand how ot use the app without steep learning curves.
-    - Responsive Feedback: Interactive elements like buttons and forms provide immediate visual feedback, confirming user actions and improving engagement.
+- Simplifying Navigation: I organized content into clear, distinct sections accessible through a sidebar menu and intuitive buttons. This allows users to find information quickly without confusion. 
+- Effectiveness and Efficiency: Users can complete their tasks accurately, completely and with minimal effort.
+- Consistent Visual Design: I applied a clean and consistent color scheme and spacing to create a pleasant user experience.
+- Learnability: Users can easily understand how ot use the app without steep learning curves.
+- Responsive Feedback: Interactive elements like buttons and forms provide immediate visual feedback, confirming user actions and improving engagement.
 
 By focusing on these usability goals, the app strives to balance of information with ease of use and appeal.
 
@@ -42,34 +42,34 @@ I created a CSV file that contains space-related quiz questions, gathered from N
 
 ## Interactive Widgets 
 
-The interactive widgets within the app include:
+The app incorporates several interactive widgets designed to enhance user engagement and provide smooth navigation:
 
-### APOD page
+### APOD Page
 
-- Date input for the APOD to choose a date or date range for APOD viewing
-- BUtton to submit the date selection
+- Date input: Allows users to select a specific date or date range for viewing the Astronomy Picture of the Day.
+- Submit button: Confirms the date selection and loads the corresponding APOD.
 
 ### Exoplanet Discovery Page
 
-- Slider to select the telescope the user would like to view to show how many exoplanets they discovered
+- Slider: Lets users select a telescope to view how many exoplanets it has discovered, dynamically updating the displayed data.
 
 ### Space Quiz
 
-- Text input to include the user's name 
-- Check box for showing user's score
-- Radio selections to choose an answer for the quiz
-- button for submitting answer
-- button for next question
+- Text input: Users can enter their name to personalize the quiz experience.
+- Checkbox: Option to show or hide the user’s current quiz score.
+- Radio buttons: Allow users to select their answer from multiple-choice options.
+- Submit button: Submits the selected answer and provides immediate feedback.
+- Next question button: Moves to the following quiz question
 
 ## HCI Principles
 
 This app incorporates key Human-Computer Interaction principles to enhance usability and user satisfaction:
 
-User Feedback: Clear error or success indicators and status messages keep users informed about ongoing processes, such as selecting a date from the future for the APOD or a correct answer in the quiz.
+- User Feedback: Clear error or success indicators and status messages keep users informed about ongoing processes, such as selecting a date from the future for the APOD or a correct answer in the quiz.
 
-Consistency : The app maintains uniform layouts, fonts, and color schemes across all pages, helping users learn and predict interactions easily.
+- Consistency : The app maintains uniform layouts, fonts, and color schemes across all pages, helping users learn and predict interactions easily.
 
-Flexibility and efficiency of use: Both novices and experienced users can navigate the app smoothly with intuitive controls and shortcuts, such as date pickers and filters.
+- Flexibility and efficiency of use: Both novices and experienced users can navigate the app smoothly with intuitive controls and shortcuts, such as date pickers and filters.
 
 ## Conclusion
 
