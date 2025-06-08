@@ -8,10 +8,11 @@ def apod_today():
     url = f"https://api.nasa.gov/planetary/apod?api_key={API_KEY}&date"
     response = requests.get(url)
     data = response.json()
+    today = datetime.now()
 
     #try block
     try:
-        st.write(f"#### APOD for date: {data['date']}")
+        st.write(f"#### APOD for date: {today}")
         media_type = data.get("media_type")
         title = data.get("title")
         st.markdown(f"### {title}")
@@ -39,8 +40,7 @@ def choose_date(select_date_str):
         data = response.json()
 
         st.markdown("---")
-        date = datetime.strptime(data["date"], "%Y-%m-%d")
-        st.markdown(f"#### APOD for date: {date}")
+        st.markdown(f"#### APOD for date: {select_date_str}")
         media_type = data.get("media_type")
         title = data.get("title")
         st.markdown(f"### {title}")
