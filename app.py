@@ -26,11 +26,11 @@ if selection == ":telescope: Explore the Universe Dashboard!":
     st.write("")
     st.write("• :camera: Astronomy Picture of the Day: View NASA’s stunning daily image — and explore "
              "past APODs too!")
-    st.write("• :ringed_planet: Exoplanet Explorer: Discover exoplanets and see which telescopes found "
+    st.write("• :ringed_planet: Exoplanet Discovery: Discover exoplanets and see which telescopes found "
              "them with interactive tables and discovery timeline charts.")
     st.write("•	:satellite: ISS Tracker: Follow the International Space Station in real time as it orbits Earth.")
-    st.write("•	:brain: Cosmic Quiz: Test your space knowledge with our fun and interactive quiz!")
-    st.write("•	:newspaper: Space News: Stay up to date with the latest breaking news in astronomy.")
+    st.write("•	:brain: Space Fact Quiz: Test your space knowledge with our fun and interactive quiz!")
+    st.write("•	:newspaper: NASA Breaking News Feed: Stay up to date with the latest breaking news in astronomy.")
     st.write("")
     st.write("Whether you're a casual stargazer or a future astrophysicist, we hope you enjoy your journey through the cosmos!")
 
